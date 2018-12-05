@@ -95,6 +95,7 @@ RUN	pip install opencv-python easydict  && \
 		tqdm \
 		libtiff \
 		cffi \
+		pydensecrf \
 		tensorboardX \
 		tensorflow-gpu==1.4.0 && \
     pip install torch==0.4.0 torchvision \
